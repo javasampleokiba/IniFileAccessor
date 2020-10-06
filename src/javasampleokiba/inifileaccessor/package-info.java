@@ -1,0 +1,4 @@
+/**
+ * IniFileAccessorのルートパッケージ
+ */
+package javasampleokiba.inifileaccessor;

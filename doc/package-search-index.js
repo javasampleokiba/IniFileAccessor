@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"javasampleokiba.inifileaccessor"},{"l":"すべてのパッケージ","url":"allpackages-index.html"}]
