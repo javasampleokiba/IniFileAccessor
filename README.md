@@ -1,46 +1,46 @@
 # IniFileAccessor
-IniFileAccessor‚ÍAINIƒtƒ@ƒCƒ‹‚Ì“Ç‚Ýž‚Ý/‘‚«ž‚Ý‚ðs‚¤‚½‚ß‚ÌJavaƒ‰ƒCƒuƒ‰ƒŠ‚Å‚·B
+IniFileAccessorã¯ã€INIãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿/æ›¸ãè¾¼ã¿ã‚’è¡Œã†ãŸã‚ã®Javaãƒ©ã‚¤ãƒ–ãƒ©ãƒªã§ã™ã€‚
 
 ## Features
-‰º‹L‚Ì’Ê‚èA×‚©‚È“Ç‚Ýž‚Ý/‘‚«ž‚ÝƒIƒvƒVƒ‡ƒ“‚ðÝ’è‚Å‚«‚Ü‚·B
+ä¸‹è¨˜ã®é€šã‚Šã€ç´°ã‹ãªèª­ã¿è¾¼ã¿/æ›¸ãè¾¼ã¿ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’è¨­å®šã§ãã¾ã™ã€‚
 
-Ÿ**“Ç‚Ýž‚ÝƒIƒvƒVƒ‡ƒ“**
+â—†**èª­ã¿è¾¼ã¿ã‚ªãƒ—ã‚·ãƒ§ãƒ³**
 
-| ƒIƒvƒVƒ‡ƒ“                             | ƒfƒtƒHƒ‹ƒgÝ’è   | ‚»‚Ì‘¼‚ÌÝ’è                                                 |
+| ã‚ªãƒ—ã‚·ãƒ§ãƒ³                             | ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆè¨­å®š   | ãã®ä»–ã®è¨­å®š                                                 |
 | -------------------------------------- | ---------------- | ------------------------------------------------------------ |
-| ‹ó”’•¶Žš‚ð–³Ž‹‚·‚é‚©                   | False            | True                                                         |
-| ‹ó”’•¶Žš—ñ‚ð•\‚·³‹K•\Œ»               | \\s+             | ”CˆÓ                                                         |
-| ‘å•¶Žš¬•¶Žš‚ð–³Ž‹‚·‚é‚©               | True             | False                                                        |
-| •s–¾‚Ès‚ðŒŸo‚µ‚½‚Æ‚«‚ÌU‚é•‘‚¢       | —áŠO‚ðƒXƒ[‚·‚é | –³Ž‹‚·‚é                                                     |
-| ƒOƒ[ƒoƒ‹ƒZƒNƒVƒ‡ƒ“‚Ì‘¶Ý‚ð‹–‰Â‚·‚é‚© | False            | True                                                         |
-| ƒL[‚Æ’l‚ÌƒfƒŠƒ~ƒ^•¶Žš                 | =                | ”CˆÓ                                                         |
-| •¡”s‚Ì’l‚ð‹–‰Â‚·‚é‚©                 | False            | True                                                         |
-| •¡”s‚Ì’l‚Ì‰üsƒR[ƒh                 | ƒVƒXƒeƒ€ˆË‘¶     | CRLF / LF                                                    |
-| ƒZƒNƒVƒ‡ƒ“–¼‚ªd•¡‚µ‚½‚Æ‚«‚ÌU‚é•‘‚¢   | —áŠO‚ðƒXƒ[‚·‚é | ‘O‚ÌƒZƒNƒVƒ‡ƒ“‚ð–³Ž‹‚·‚é /<br/>Œã‚ÌƒZƒNƒVƒ‡ƒ“‚ð–³Ž‹‚·‚é /<br/>ƒ}[ƒW‚·‚é |
-| ƒL[‚ªd•¡‚µ‚½‚Æ‚«‚ÌU‚é•‘‚¢           | —áŠO‚ðƒXƒ[‚·‚é | ‘O‚ÌƒL[‚ð–³Ž‹‚·‚é /<br/>Œã‚ÌƒL[‚ð–³Ž‹‚·‚é /<br/>•¡”‚Ì’l‚Æ‚Ý‚È‚· |
-| ƒwƒbƒ_ƒRƒƒ“ƒg‚ðŽ‚Â‚©                 | False            | True                                                         |
-| ƒRƒƒ“ƒg‚ÌŠJŽn‚ð•\‚·•¶Žš               | ;                | ”CˆÓ                                                         |
-| s‚Ì“r’†‚©‚ç‚ÌƒRƒƒ“ƒg‚ð‹–‰Â‚·‚é‚©     | False            | True                                                         |
+| ç©ºç™½æ–‡å­—ã‚’ç„¡è¦–ã™ã‚‹ã‹                   | False            | True                                                         |
+| ç©ºç™½æ–‡å­—åˆ—ã‚’è¡¨ã™æ­£è¦è¡¨ç¾               | \\s+             | ä»»æ„                                                         |
+| å¤§æ–‡å­—å°æ–‡å­—ã‚’ç„¡è¦–ã™ã‚‹ã‹               | True             | False                                                        |
+| ä¸æ˜Žãªè¡Œã‚’æ¤œå‡ºã—ãŸã¨ãã®æŒ¯ã‚‹èˆžã„       | ä¾‹å¤–ã‚’ã‚¹ãƒ­ãƒ¼ã™ã‚‹ | ç„¡è¦–ã™ã‚‹                                                     |
+| ã‚°ãƒ­ãƒ¼ãƒãƒ«ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã®å­˜åœ¨ã‚’è¨±å¯ã™ã‚‹ã‹ | False            | True                                                         |
+| ã‚­ãƒ¼ã¨å€¤ã®ãƒ‡ãƒªãƒŸã‚¿æ–‡å­—                 | =                | ä»»æ„                                                         |
+| è¤‡æ•°è¡Œã®å€¤ã‚’è¨±å¯ã™ã‚‹ã‹                 | False            | True                                                         |
+| è¤‡æ•°è¡Œã®å€¤ã®æ”¹è¡Œã‚³ãƒ¼ãƒ‰                 | ã‚·ã‚¹ãƒ†ãƒ ä¾å­˜     | CRLF / LF                                                    |
+| ã‚»ã‚¯ã‚·ãƒ§ãƒ³åãŒé‡è¤‡ã—ãŸã¨ãã®æŒ¯ã‚‹èˆžã„   | ä¾‹å¤–ã‚’ã‚¹ãƒ­ãƒ¼ã™ã‚‹ | å‰ã®ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚’ç„¡è¦–ã™ã‚‹ /<br/>å¾Œã®ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚’ç„¡è¦–ã™ã‚‹ /<br/>ãƒžãƒ¼ã‚¸ã™ã‚‹ |
+| ã‚­ãƒ¼ãŒé‡è¤‡ã—ãŸã¨ãã®æŒ¯ã‚‹èˆžã„           | ä¾‹å¤–ã‚’ã‚¹ãƒ­ãƒ¼ã™ã‚‹ | å‰ã®ã‚­ãƒ¼ã‚’ç„¡è¦–ã™ã‚‹ /<br/>å¾Œã®ã‚­ãƒ¼ã‚’ç„¡è¦–ã™ã‚‹ /<br/>è¤‡æ•°ã®å€¤ã¨ã¿ãªã™ |
+| ãƒ˜ãƒƒãƒ€ã‚³ãƒ¡ãƒ³ãƒˆã‚’æŒã¤ã‹                 | False            | True                                                         |
+| ã‚³ãƒ¡ãƒ³ãƒˆã®é–‹å§‹ã‚’è¡¨ã™æ–‡å­—               | ;                | ä»»æ„                                                         |
+| è¡Œã®é€”ä¸­ã‹ã‚‰ã®ã‚³ãƒ¡ãƒ³ãƒˆã‚’è¨±å¯ã™ã‚‹ã‹     | False            | True                                                         |
 
-Ÿ**‘‚«ž‚ÝƒIƒvƒVƒ‡ƒ“**
+â—†**æ›¸ãè¾¼ã¿ã‚ªãƒ—ã‚·ãƒ§ãƒ³**
 
-| ƒIƒvƒVƒ‡ƒ“                     | ƒfƒtƒHƒ‹ƒgÝ’è | ‚»‚Ì‘¼‚ÌÝ’è |
+| ã‚ªãƒ—ã‚·ãƒ§ãƒ³                     | ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆè¨­å®š | ãã®ä»–ã®è¨­å®š |
 | ------------------------------ | -------------- | ------------ |
-| ƒL[‚Æ’l‚ÌƒfƒŠƒ~ƒ^•¶Žš         | =              | ”CˆÓ         |
-| ŠeƒZƒNƒVƒ‡ƒ“ŠÔ‚É‘}“ü‚·‚é‹ós” | 1              | ”CˆÓ         |
-| Šeƒpƒ‰ƒ[ƒ^ŠÔ‚É‘}“ü‚·‚é‹ós” | 0              | ”CˆÓ         |
+| ã‚­ãƒ¼ã¨å€¤ã®ãƒ‡ãƒªãƒŸã‚¿æ–‡å­—         | =              | ä»»æ„         |
+| å„ã‚»ã‚¯ã‚·ãƒ§ãƒ³é–“ã«æŒ¿å…¥ã™ã‚‹ç©ºè¡Œæ•° | 1              | ä»»æ„         |
+| å„ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿é–“ã«æŒ¿å…¥ã™ã‚‹ç©ºè¡Œæ•° | 0              | ä»»æ„         |
 
 ## Requirements
 Java 5 or later<br>
-iƒeƒXƒg‚ðŽÀs‚µ‚½‚¢ê‡‚ÍAJava 8 or later, JUnit5j
+ï¼ˆãƒ†ã‚¹ãƒˆã‚’å®Ÿè¡Œã—ãŸã„å ´åˆã¯ã€Java 8 or later, JUnit5ï¼‰
 
 ## Usage
-src.exampleƒtƒHƒ‹ƒ_”z‰º‚ÌŠeƒNƒ‰ƒX‚ÌŽÀs—á‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B<br>
-‚Ü‚½‚ÍA‰º‹LƒuƒƒO‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B<br>
-[[Java][ƒTƒ“ƒvƒ‹ƒR[ƒh] INIƒtƒ@ƒCƒ‹“Ç‚Ý‘‚«ƒ‰ƒCƒuƒ‰ƒŠ‚ðŽ©ì‚µ‚Ä‚Ý‚½](http://javasampleokiba.blog.fc2.com/blog-entry-27.html)<br>
-[[Java][ƒTƒ“ƒvƒ‹ƒR[ƒh] INIƒtƒ@ƒCƒ‹“Ç‚Ý‘‚«ƒ‰ƒCƒuƒ‰ƒŠ‚ðŽ©ì‚µ‚Ä‚Ý‚½ (‚»‚Ì2)](http://javasampleokiba.blog.fc2.com/blog-entry-28.html)<br>
-[[Java][ƒTƒ“ƒvƒ‹ƒR[ƒh] INIƒtƒ@ƒCƒ‹“Ç‚Ý‘‚«ƒ‰ƒCƒuƒ‰ƒŠ‚ðŽ©ì‚µ‚Ä‚Ý‚½ (‚»‚Ì3)](http://javasampleokiba.blog.fc2.com/blog-entry-29.html)<br>
-[[Java][ƒTƒ“ƒvƒ‹ƒR[ƒh] INIƒtƒ@ƒCƒ‹“Ç‚Ý‘‚«ƒ‰ƒCƒuƒ‰ƒŠ‚ðŽ©ì‚µ‚Ä‚Ý‚½ (‚»‚Ì4)](http://javasampleokiba.blog.fc2.com/blog-entry-30.html)
+src.exampleãƒ•ã‚©ãƒ«ãƒ€é…ä¸‹ã®å„ã‚¯ãƒ©ã‚¹ã®å®Ÿè¡Œä¾‹ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚<br>
+ã¾ãŸã¯ã€ä¸‹è¨˜ãƒ–ãƒ­ã‚°ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚<br>
+[[Java][ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰] INIãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿æ›¸ããƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’è‡ªä½œã—ã¦ã¿ãŸ](http://javasampleokiba.blog.fc2.com/blog-entry-27.html)<br>
+[[Java][ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰] INIãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿æ›¸ããƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’è‡ªä½œã—ã¦ã¿ãŸ (ãã®2)](http://javasampleokiba.blog.fc2.com/blog-entry-28.html)<br>
+[[Java][ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰] INIãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿æ›¸ããƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’è‡ªä½œã—ã¦ã¿ãŸ (ãã®3)](http://javasampleokiba.blog.fc2.com/blog-entry-29.html)<br>
+[[Java][ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰] INIãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿æ›¸ããƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’è‡ªä½œã—ã¦ã¿ãŸ (ãã®4)](http://javasampleokiba.blog.fc2.com/blog-entry-30.html)
 
 ## License
-LICENSE‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
+[LICENSE](https://github.com/javasampleokiba/IniFileAccessor/blob/master/LICENSE)ã‚’å‚ç…§ã—ã¦ãã ã•ã„ã€‚
